@@ -1,0 +1,178 @@
+    #searchResults {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    #searchResults li {
+      padding: 10px;
+/*      background-color: #f1f1f1;*/
+      border: 1px solid #ccc;
+      margin: 5px 0;
+      font-size: 16px;
+      color: #333;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.2s ease;
+    }
+
+    #searchResults li:hover {
+      background-color: #e0e0e0;
+      cursor: pointer;
+    }
+
+    #seasons {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    #seasons li {
+      padding: 10px;
+      background-color: #f1f1f1;
+      border: 1px solid #ccc;
+      margin: 5px 0;
+      font-size: 16px;
+      color: #333;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.2s ease;
+    }
+
+    #seasons li:hover {
+      background-color: #e0e0e0;
+      cursor: pointer;
+    }
+
+    #episodeList {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    #episodeList li {
+      padding: 10px;
+      background-color: #f1f1f1;
+      border: 1px solid #ccc;
+      margin: 5px 0;
+      font-size: 16px;
+      color: #333;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.2s ease;
+    }
+
+    #episodeList li:hover {
+      background-color: #e0e0e0;
+      cursor: pointer;
+    }
+
+    .input-container {
+      position: relative;
+      // display: inline-block;
+    }
+
+    /* Styles for input field */
+    .input {
+      padding-right: 25px; /* Add some padding on the right for the cross button */
+      width: 200px; /* Set the desired width for the input field */
+    }
+
+    .clear-button {
+      position: absolute;
+      top: 50%;
+      right: 5px; /* Adjust the position of the cross button as needed */
+      transform: translateY(-50%);
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      font-size: 19px;
+      color: #999;
+    }
+
+    .clear-button:hover {
+      color: #ff0000; /* Change the color when the button is hovered */
+    }
+
+    /* Button styles */
+    .get-seasons-button {
+      background-color: #333;
+      color: white;
+      font-size: 18px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);    
+    }
+
+    /* Hover effect */
+    .get-seasons-button:hover {
+      background-color: #555;
+    }
+
+    /* Optional: Add a subtle animation on click */
+    .get-seasons-button:active {
+      transform: translateY(1px);
+    }
+
+    /* Styles for the video uploader container */
+    .video-uploader {
+      display: inline-block;
+      position: relative;
+      overflow: hidden;
+      border: 2px dashed #ccc;
+      border-radius: 5px;
+      padding: 20px;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    /* Styles for the file input element (hidden) */
+    .file-input {
+      display: none;
+    }
+
+    /* Styles for the file label */
+    .file-label {
+      display: block;
+      font-size: 16px;
+      color: #555;
+      cursor: pointer;
+    }
+
+    /* Styles for the file icon */
+    .file-label i {
+      margin-right: 5px;
+    }
+
+    /* Styles for the file name display */
+    .file-name {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #999;
+    }
+
+    /* Styles for the file uploader on hover */
+    .video-uploader:hover {
+      background-color: #f7f7f7;
+    }
+
+    /* Styles for the file uploader on file selection */
+    .video-uploader .file-input:focus + .file-label {
+      outline: 2px solid #3498db;
+    }
+
+    .file-input-container {
+      display: flex;
+      align-items: center;
+      // border: 1px solid #ccc;
+      padding: 10px;
+      // border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    .file-input-container label {
+      margin-right: 10px;
+    }
